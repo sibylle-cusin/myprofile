@@ -1,0 +1,112 @@
+body {
+	background-color: pink;
+	color: black;
+	font-family: Helvetica;
+	font-size: 14;
+	margin: auto;
+	font-weight: 150;
+	width: 700px;
+}
+
+h1{
+	color: black;
+	font-family: Lora;
+	font-weight: 225;
+	font-size: 25;
+}
+
+h2{
+	color: pink;
+	font-family: Lora;
+	font-weight: 200;
+	font-size: 22;
+	padding-bottom: 10px;
+}
+
+h3{
+	color: black;
+	font-family: Lato;
+	font-weight: 175;
+	font-size: 20;
+	padding-bottom: 0px;
+	padding-top: px;
+}
+
+a{
+	text-decoration: none;	
+	color: black;
+}
+
+a:hover { 
+	color: white;
+}
+
+/* id customization*/
+
+#other-skills {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+#follow{
+padding-bottom: 20px;
+}
+
+#intro {
+	background-image: url(images/lake.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 62px;
+
+}
+
+/*class customization */
+
+
+.container { 
+	width: 750;
+	margin: 40px auto;
+}
+
+@media (max-width:775px) {
+.container { width: 600px;
+		}
+}
+
+@media (max-width:600px) {
+.container { width: 450px;
+	margin: 10px auto;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	margin: 20px auto;
+	border-radius: 12px; 
+	box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.1); 
+	text-align: center;
+	text-align: justify-all;
+}
+
+.button {
+	background-color: pink;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.list-inline {
+	padding-left: 0px;
+}
+
+.img-circle { 
+	border-radius: 50%;
+ }
+
+.img-card{
+	border-radius: 5%;
+	width: 275px;
+}
